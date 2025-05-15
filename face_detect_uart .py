@@ -2,7 +2,7 @@ import cv2
 import serial
 import time
 
-ser = serial.Serial('COM6', 9600, timeout=1)  # Replace with your COM
+ser = serial.Serial('COM6', 9600, timeout=1)  
 time.sleep(2)
 
 face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
