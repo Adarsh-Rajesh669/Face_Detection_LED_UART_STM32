@@ -4,7 +4,7 @@
 
 This project demonstrates using an STM32F401RE microcontroller to control an LED based on face detection using OpenCV in Python.
 
-## 🧠 Project Features
+## Project Features
 
 - Uses Haar Cascade in Python OpenCV to detect faces.
 - Sends serial data via UART to STM32 to:
